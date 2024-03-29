@@ -20,23 +20,9 @@ book:
   repo-actions: [edit, issue]
   chapters:
     - index.qmd
-    - intro-to-GLMs.qmd
-    - part: glms.qmd
-      chapters:
-       - Linear-models-overview.qmd
-       - logistic-regression.qmd
-       - count-regression.qmd
-    - part: time-to-event-models.qmd
-      chapters:
-       - intro-to-survival-analysis.qmd
-       - proportional-hazards-models.qmd
-       - coxph-model-building.qmd
-       - parametric-survival-models.qmd
+    - intro.qmd
+    - summary.qmd
   references: references.qmd
-  appendices:
-    - probability.qmd
-    - estimation.qmd
-    - intro-MLEs.qmd
   back-to-top-navigation: true
   page-navigation: true
 

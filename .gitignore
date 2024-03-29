@@ -4,3 +4,8 @@
 .Ruserdata
 /.quarto/
 _book
+_slides
+index_cache
+intro_cache
+summary_cache
+_freeze
