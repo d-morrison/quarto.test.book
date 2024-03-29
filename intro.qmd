@@ -1,4 +1,10 @@
-# Introduction
+---
+title: Introduction
+---
+
+# a section
+
+## a subsection
 
 This is a book created from markdown and executable code.
 
@@ -13,4 +19,10 @@ See @knuth84 for additional discussion of literate programming.
 Here's a definition
 
 :::
+
+```{r}
+#| label: fig-plot1
+#| fig-cap: "Plot 1"
+plot(1:10)
+```
 
