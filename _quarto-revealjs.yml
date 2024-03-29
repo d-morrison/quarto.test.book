@@ -15,7 +15,7 @@ format:
     number-sections: true
     number-depth: 3
     slide-number: true
-    slide-level: 2
+    slide-level: 3
     scrollable: true
     echo: true
     code-fold: true

@@ -1,10 +1,8 @@
----
-title: Introduction
----
+# Introduction
 
-# a section
+## a section
 
-## a subsection
+### a subsection
 
 This is a book created from markdown and executable code.
 
@@ -30,7 +28,7 @@ plot(1:10)
 
 Some more text.
 
-### a subsubsection
+#### a subsubsection
 
 ```{r}
 #| label: fig-plot2
@@ -39,9 +37,9 @@ plot(10:1)
 ```
 
 
-# a new section
+## a new section
 
-## a new subsection
+### a new subsection
 
 ```{r}
 #| label: fig-plot3
