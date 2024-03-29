@@ -45,7 +45,7 @@ plot(10:1)
 
 ```{r}
 #| label: fig-plot3
-#| caption: "a ggplot figure"
+#| fig-cap: "a ggplot figure"
 
 library(ggplot2)
 set.seed(1)
