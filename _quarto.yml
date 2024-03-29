@@ -1,0 +1,30 @@
+project:
+  type: book
+
+book:
+  title: "quarto.test.book"
+  author: "Norah Jones"
+  date: "9/15/2023"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+    include-in-header:
+      text: |
+        \usepackage{makeidx}
+        \makeindex
+    include-after-body:
+      text: |
+        \printindex
+
+editor: source
+
