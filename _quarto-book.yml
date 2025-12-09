@@ -29,6 +29,7 @@ format:
     code-tools: true
     code-fold: true
     code-link: true
+    df-print: paged
     fig-cap-location: top
     html-math-method: mathjax
     number-sections: true
