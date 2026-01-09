@@ -43,13 +43,6 @@ jobs:
         if: github.event.action != 'closed' # skip the build if the PR has been closed
         uses: quarto-dev/quarto-actions/render@v2
 
-      - name: list files
-        shell: bash
-        run: |
-          echo "contents of _book:"
-          ls _book/
-          echo "contents of .:"
-          ls .
       - name: Deploy PR Preview
         uses: rossjrw/pr-preview-action@main
         with:

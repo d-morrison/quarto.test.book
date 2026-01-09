@@ -16,11 +16,6 @@ jobs:
         with:
           submodules: recursive
 
-      - name: list files
-        shell: bash
-        run: |
-          ls
-
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         env:
