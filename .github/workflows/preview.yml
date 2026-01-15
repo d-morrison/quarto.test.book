@@ -39,6 +39,11 @@ jobs:
         with:
           use-public-rspm: true
 
+      - name: Install R dependencies
+        run: |
+          install.packages(c("knitr", "rmarkdown"))
+        shell: Rscript {0}
+
       - name: Render
         if: github.event.action != 'closed' # skip the build if the PR has been closed
         uses: quarto-dev/quarto-actions/render@v2
