@@ -37,7 +37,7 @@ jobs:
             results <- spelling::spell_check_files(qmd_files)
             if (nrow(results) > 0) {
               print(results)
-              stop("Spelling errors found!")
+              stop("Spelling errors found. Please review the results above and correct the misspelled words, or add them to inst/WORDLIST if they are technical terms or proper names.")
             } else {
               cat("No spelling errors found.\n")
             }
